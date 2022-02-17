@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Bebas+Neue&family=Open+Sans:ital,wght@1,500&family=Poppins:wght@500&family=Roboto&family=Roboto+Condensed&display=swap');
+
+
+
+
+body{
+    background-color: #c5c2c2ce;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding-bottom: 300px;
+}
+.container{
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;
+    width: 870px;
+    border-radius: 5px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.tytle{
+    color: #562EFF;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+/*------------------------- start styles fo navigations ------------------------------- */
+
+nav{
+    background-color:#562EFF;
+    height: 94px;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+nav > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 0px;
+
+}
+.first-part{
+    font-size: 24px;
+}
+.first-part i{
+    margin-right: 16px;
+}
+
+.second-part a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+
+}
+.second-part img{
+    width: 50px;
+    height: 50px;
+}
+
+
+/*------------------------- end styles fo navigations ------------------------------- */
+
+
+
+/*------------------------- start styles fo players ------------------------------- */
+.player-section h1{
+    margin-top: 0px;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap:56px;
+    margin-top: 40px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    margin-right: 20px;
+}
+hr{
+    margin: 30px;
+}
+/*------------------------- end styles fo players ------------------------------- */
+
+/*------------------------- start styles fo blogs ------------------------------- */
+.blogs{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.blog{
+    display: flex;
+    margin: 13px 10px;
+
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-info a{
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*------------------------- end styles fo blogs ------------------------------- */
+
+
+.courses{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.course{
+    padding: 10px;
+    box-shadow: rgba(131, 130, 130, 0.18) 0px 2px 4px;
+    margin-right:10px;
+    border-radius: 20px;
+}
+.course img{
+    width: 224px;
+    height: 104px;
+}
+.course-tytle p{
+    font-size: 14.6913px;
+    color: #ED6B4F;
+}
+.course-rating-and-duration{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rating{
+    display: flex;
+    align-items: center;
+}
+.rating p{
+    margin-left: 10px;
+}
+.fa-star{
+    color:#FFC014 ;
+    font-size: 11px;
+}
+.fa-star.blank{
+    color:rgb(165, 159, 159);
+}
+.duration{
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #ffc1b3;
+    color: #ff2f00;
+    font-weight: 600;
+    font-size: 14.6913px;
+}
+
+
