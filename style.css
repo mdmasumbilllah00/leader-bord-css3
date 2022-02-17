@@ -173,3 +173,132 @@ hr{
 }
 
 
+@media only screen and (max-width:668px) {
+    
+    main{
+        width: 100%;
+        
+    }
+    .container{
+        width: 100%;
+        padding: 30px 0;
+    }
+    .tytle{
+        text-align: center;
+    }
+    .players{
+    grid-template-columns: auto ;
+    }
+    .player{
+        
+        justify-content: center;
+    }
+    .player img{
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+    }
+    .player-name{
+        margin-left: 30px;
+        font-size: 30px;
+    }
+   
+    /*----- media for blogs--- */
+
+.blogs{
+    grid-template-columns: auto;
+}
+.blog{
+    justify-content: center;
+}
+
+/*---- media for courses--- */
+.courses{
+    grid-template-columns: auto;
+    justify-content: center;
+}
+.course{
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.cource-image{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.course-info{
+    margin-left: 30px;
+}
+}
+
+@media only screen and (min-width:669px) and (max-width:992px){
+    main{
+        width: 100%;
+        
+    }
+    .container{
+        width: 100%;
+        padding: 30px 0;
+    }
+    .tytle{
+        text-align: center;
+    }
+    .players{
+    grid-template-columns: auto  auto;
+    }
+    .player{
+        
+        justify-content: center;
+    }
+    .player img{
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+    }
+    .player-name{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    .blogs{
+        grid-template-columns: auto;
+    }
+    
+    
+    .blog img{
+        width: 277px;
+        height: 187px;
+        margin-left: 30px;
+    }
+    .blog-info{
+        margin-left: 46px;
+    }
+    .blog-info a{
+        text-decoration: none;
+        color: #562EFF;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    /*---- media for courses--- */
+    .courses{
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+    }
+    .course{
+        margin-bottom: 40px;
+        padding: 50px 20px;
+    }
+    .cource-image img{
+        width: 260px;
+        height: 164px;
+    }
+    .course-rating-and-duration{
+      justify-content: space-between;
+    }
+    
+    
+   
+    
+}
+
